@@ -1,0 +1,10 @@
+{
+    "editor.formatOnSave": true,
+    "editor.fontWeight": "normal",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.bracketSameLine": false,
+    "prettier.bracketSpacing": true,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
