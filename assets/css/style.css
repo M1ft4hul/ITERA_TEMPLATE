@@ -791,6 +791,7 @@ section {
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
+  border-radius: 10px;
 }
 
 .about .icon-box .icon {
@@ -1642,7 +1643,7 @@ section {
 /* end */
 
 .contact button {
-  width: 300px;
+  width: 290px;
 }
 
 .contact .text-centers h3 {
@@ -1677,6 +1678,7 @@ section {
   box-shadow: 0 0 30px rgba(253, 126, 41, 0.4);
   padding: 30px;
   background: #8F0D04;
+  border-radius: 10px;
 
 }
 
@@ -1739,10 +1741,12 @@ section {
 
 .contact .php-email-form input {
   padding: 10px 15px;
+  border-radius: 10px;
 }
 
 .contact .php-email-form textarea {
   padding: 12px 15px;
+  border-radius: 10px;
 }
 
 .contact .php-email-form button[type=submit] {
