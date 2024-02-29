@@ -194,7 +194,7 @@ h6 {
   align-items: center;
 }
 
-.navbar .button{
+.navbar .button {
   white-space: nowrap;
   padding: 10px 0 10px 20px;
 }
@@ -1780,6 +1780,168 @@ section {
 
   100% {
     transform: rotate(360deg);
+  }
+}
+
+/*--------------------------------------------------------------
+# cari barang
+--------------------------------------------------------------*/
+#cover {
+  background: #fff;
+  padding: 0 0 30px 0;
+  color: #444444;
+  font-size: 14px;
+  background: #fef4f1;
+}
+
+/* tombol cari alat dan bahan */
+#cover .btn-cari {
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  margin-bottom: 5px;
+  font-weight: bold;
+  background-color: #E8AA42;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 1px #999;
+}
+
+#cover .btn-cari:hover {
+  background-color: #666;
+  color: white;
+}
+
+#cover .btn-cari.active {
+  background-color: #666;
+  /* Warna abu abu saat tombol aktif */
+}
+
+/* tombol aula */
+#cover .btn-aula {
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 5px;
+  font-weight: bold;
+  background-color: #E8AA42;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0 1px #999;
+}
+
+#cover .btn-aula:hover {
+  background-color: #666;
+  color: white;
+}
+
+#cover .btn-aula.active {
+  background-color: #666;
+  /* Warna abu abu saat tombol aktif */
+}
+
+/* end */
+
+#cover .pencarian-data {
+  padding: 50px 0;
+  background: #f1f6fe;
+  text-align: center;
+  font-size: 15px;
+}
+
+#cover .pencarian-data h2 {
+  font-size: 24px;
+  margin: 80px 0 20px 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 700;
+}
+
+#cover .pencarian-data p {
+  margin: 0 0 80px 0;
+}
+
+.input-box {
+  position: relative;
+  height: 76px;
+  max-width: 900px;
+  /* width: 100%; */
+  background: #fff;
+  margin: 0 20px;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-box .button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.input-box input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  font-size: 18px;
+  font-weight: 400;
+  border: none;
+  padding: 0 155px 0 40px;
+  background-color: transparent;
+}
+
+.input-box .button {
+  right: 20px;
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #E8AA42;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 1px #999;
+}
+
+.input-box .button:hover {
+  background-color: #c9953a
+}
+
+.input-box .button:active {
+  background-color: #E8AA42;
+  box-shadow: 0 1px #666;
+  transform: translateY(-50%) scale(0.98);
+}
+
+/* Responsive */
+@media screen and (max-width: 500px) {
+  .input-box {
+    height: 66px;
+    margin: 0 8px;
+  }
+
+  .input-box i {
+    left: 12px;
+    font-size: 25px;
+  }
+
+  .input-box input {
+    padding: 0 112px 0 50px;
+  }
+
+  .input-box .button {
+    right: 12px;
+    font-size: 14px;
+    padding: 8px 18px;
   }
 }
 
