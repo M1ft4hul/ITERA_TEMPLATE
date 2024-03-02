@@ -120,7 +120,7 @@
 }
 
 .text-primary {
-  color: #696cff !important;
+  color: #8F0D04 !important;
 }
 
 .text-body[href]:hover {
@@ -868,7 +868,7 @@ a:hover {
 }
 
 .bg-menu-theme .menu-text {
-  color: #566a7f;
+  color: #fff8f8;
 }
 
 .bg-menu-theme .menu-header {
@@ -965,7 +965,7 @@ html:not(.layout-menu-collapsed) .bg-menu-theme .menu-inner .menu-item .menu-lin
 }
 
 .app-brand .layout-menu-toggle {
-  background-color: #696cff;
+  background-color: #8F0D04;
   border: 7px solid #f5f5f9;
 }
 
