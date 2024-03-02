@@ -1448,18 +1448,11 @@ section {
   background: #f8f8f8;
 }
 
-.pricing .box h4 {
-  font-size: 36px;
-  color: #106eea;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
+.pricing .box img {
+ 
   margin-bottom: 20px;
-}
-
-.pricing .box h4 sup {
-  font-size: 20px;
-  top: -15px;
-  left: -3px;
+  width: 150px;
+  height: 150px;
 }
 
 .pricing .box h4 span {
@@ -1500,7 +1493,7 @@ section {
 }
 
 .pricing .btn-buy {
-  background: #106eea;
+  background: #E8AA42;
   display: inline-block;
   padding: 8px 35px 10px 35px;
   border-radius: 4px;
@@ -1514,12 +1507,12 @@ section {
 }
 
 .pricing .btn-buy:hover {
-  background: #3b8af2;
+  background: #f23b3b;
 }
 
 .pricing .featured h3 {
   color: #fff;
-  background: #106eea;
+  background: #E8AA42;
 }
 
 .pricing .advanced {
@@ -1531,7 +1524,7 @@ section {
   z-index: 1;
   font-size: 14px;
   padding: 1px 0 3px 0;
-  background: #106eea;
+  background: #E8AA42;
   color: #fff;
 }
 
@@ -1787,11 +1780,10 @@ section {
 # cari barang
 --------------------------------------------------------------*/
 #cover {
-  background: #fff;
   padding: 0 0 30px 0;
   color: #444444;
   font-size: 14px;
-  background: #fef4f1;
+  background: #fdfdfd;
 }
 
 /* tombol cari alat dan bahan */
@@ -1852,13 +1844,13 @@ section {
 
 #cover .pencarian-data {
   padding: 50px 0;
-  background: #f1f6fe;
+  background: #fef4f1;
   text-align: center;
   font-size: 15px;
 }
 
 #cover .pencarian-data h2 {
-  font-size: 24px;
+  font-size: 30px;
   margin: 80px 0 20px 0;
   padding: 0;
   line-height: 1;
